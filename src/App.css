@@ -1,0 +1,17 @@
+.charts-container {
+  display: flex;
+  justify-content: space-between; /* Space between charts */
+  background-color: #f0f0f0; /* Light grey background for the chart area */
+  padding: 20px; /* Padding around the charts */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.chart {
+  flex: 1; /* Allow charts to grow equally */
+  margin: 0 10px; /* Margin between charts */
+  background-color: #fff; /* White background for each chart */
+  border: 1px solid #ddd; /* Light border around each chart */
+  border-radius: 10px; /* Rounded corners for each chart */
+  padding: 10px; /* Padding inside each chart container */
+  min-width: 300px; /* Minimum width to ensure charts are not too small */
+}
